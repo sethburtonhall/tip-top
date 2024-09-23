@@ -6,28 +6,10 @@ import { Card, CardContent, CardFooter } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { Label } from "@/components/ui/label";
-import { Pacifico } from "next/font/google";
-import { Permanent_Marker } from "next/font/google";
 import { Fredoka } from "next/font/google";
-import { Nunito } from "next/font/google";
-
-const pacifico = Pacifico({
-    weight: "400",
-    subsets: ["latin"],
-});
-
-const permanentMarker = Permanent_Marker({
-    weight: "400",
-    subsets: ["latin"],
-});
 
 const fredoka = Fredoka({
     weight: ["400", "700"],
-    subsets: ["latin"],
-});
-
-const nunito = Nunito({
-    weight: ["400", "700", "900"],
     subsets: ["latin"],
 });
 
